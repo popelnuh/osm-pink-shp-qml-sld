@@ -7,3 +7,4 @@ The style has been inspired by Ordnance Survey Map, "Lanarkshire VII.12 (Old Mon
 See  Wiki for more details.
 
 ![Screenshot](https://github.com/popelnuh/osm-sld/blob/master/osm-screenshots/osm-os.PNG)
+'Reproduced with the permission of the National Library of Scotland'
