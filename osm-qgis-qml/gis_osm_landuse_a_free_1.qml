@@ -5,13 +5,11 @@
       <rule scalemaxdenom="5100000" scalemindenom="100000" filter=" &quot;fclass&quot; = 'allotments' OR &quot;fclass&quot; = 'farm' OR &quot;fclass&quot; = 'forest' OR &quot;fclass&quot; = 'meadow' OR &quot;fclass&quot; = 'scrub' OR  &quot;fclass&quot; = 'park' OR &quot;fclass&quot; = 'orchard' OR &quot;fclass&quot; =  'cemetery' OR  &quot;fclass&quot; = 'grass' OR  &quot;fclass&quot; = 'recreation_ground'" symbol="0" key="{ff66808e-985d-482e-9ccb-3b1919110904}" label="Forested/&quot;Green&quot; Areas, 1:5,100,000 - 100,000"/>
       <rule scalemaxdenom="5100000" scalemindenom="100000" filter=" &quot;fclass&quot; = 'nature_reserve'" symbol="1" key="{192e6c88-df61-4790-b3a3-3ebcc7451880}" label="Nature Reserve, 1:5,100,000 - 1:100,000"/>
       <rule scalemaxdenom="5100000" scalemindenom="100000" filter=" &quot;fclass&quot; = 'industrial' OR  &quot;fclass&quot; = 'military' OR  &quot;fclass&quot; = 'quarry' " symbol="2" key="{7542c42e-1f85-49d6-a597-930718eca9d5}" label="Industrial and other Areas, 1:5,100,000 - 1:100,000"/>
-      <rule scalemaxdenom="3000000" scalemindenom="100000" filter=" &quot;fclass&quot; = 'residential'" symbol="3" key="{e23299f8-6ee2-4299-b575-1b41d2cdd09a}" label="Residential Areas, 3,000,000 - 100,000"/>
-      <rule scalemaxdenom="150000" scalemindenom="50000" filter=" &quot;fclass&quot; ='residential'" symbol="4" key="{710653a8-fda7-4a0d-ab6c-1994dffa52c0}" label="Residential Areas, 150,000 - 50,000"/>
-      <rule scalemaxdenom="100000" scalemindenom="10000" filter=" &quot;fclass&quot; = 'industrial' OR  &quot;fclass&quot; = 'military' OR  &quot;fclass&quot; = 'quarry'" symbol="5" key="{60d44260-ecba-4430-8f36-6f3042901b49}" label="Industrial and other Areas, 1:100,000 - 1:10,000"/>
-      <rule scalemaxdenom="100000" scalemindenom="10000" filter=" &quot;fclass&quot;  = 'commercial' OR  &quot;fclass&quot; = 'recreation_ground' OR  &quot;fclass&quot; = 'retail' " symbol="6" key="{182051df-d055-4bb4-b95f-b1bda77f79b3}" label="Commercial other Areas, 1:100,000 - 1:10,000"/>
-      <rule scalemaxdenom="10000" scalemindenom="1" filter=" &quot;fclass&quot; = 'residential'" symbol="7" key="{2dd97ba2-b1a4-4b36-989c-b35f7c424518}" label="Residential Areas, 1:100,000 - 1:10,000"/>
-      <rule scalemaxdenom="150000" scalemindenom="10000" filter=" &quot;fclass&quot; = 'forest' OR &quot;fclass&quot; = 'meadow' OR &quot;fclass&quot; = 'nature_reserve' OR &quot;fclass&quot; = 'scrub' OR &quot;fclass&quot; ='park' OR &quot;fclass&quot; = 'orchard' OR &quot;fclass&quot; = 'cemetery' OR &quot;fclass&quot; = 'allotments' OR &quot;fclass&quot; = 'farm' OR &quot;fclass&quot; = 'heath' OR &quot;fclass&quot; = 'meadow' OR &quot;fclass&quot; ='park' OR &quot;fclass&quot; = 'recreation_ground' OR &quot;fclass&quot; = 'scrub'" symbol="8" key="{3ea3327d-a8b9-41fe-856d-b003100776a0}" label="Forested/&quot;Green&quot; areas, 1:150,000 - 1:1"/>
-      <rule scalemaxdenom="10000" scalemindenom="1" filter=" &quot;fclass&quot; = 'forest' OR  &quot;fclass&quot; = 'meadow' OR  &quot;fclass&quot; = 'nature_reserve' OR  &quot;fclass&quot; = 'scrub' OR  &quot;fclass&quot; = 'park' OR  &quot;fclass&quot; = 'orchard' OR  &quot;fclass&quot; = 'grass' OR  &quot;fclass&quot; =  'allotments' OR  &quot;fclass&quot; = 'cemetery' OR  &quot;fclass&quot; =  'heath' OR  &quot;fclass&quot; =  'recreation_ground'" symbol="9" key="{7e5a0ee6-8873-4e90-8bbc-5ac7dc4a50d3}" label="Forested/&quot;Green&quot; areas, 1:10,000 - 1:1"/>
+      <rule scalemaxdenom="100000" scalemindenom="10000" filter=" &quot;fclass&quot; = 'industrial' OR  &quot;fclass&quot; = 'military' OR  &quot;fclass&quot; = 'quarry'" symbol="3" key="{cf67f231-dd40-433a-9f56-1fdd06118547}" label="Industrial and other Areas, 1:100,000 - 1:10,000"/>
+      <rule scalemaxdenom="3000000" scalemindenom="100000" filter=" &quot;fclass&quot; = 'residential'" symbol="4" key="{e23299f8-6ee2-4299-b575-1b41d2cdd09a}" label="Residential Areas, 3,000,000 - 100,000"/>
+      <rule scalemaxdenom="100000" scalemindenom="10000" filter=" &quot;fclass&quot;  = 'commercial' OR  &quot;fclass&quot; = 'recreation_ground' OR  &quot;fclass&quot; = 'retail' " symbol="5" key="{182051df-d055-4bb4-b95f-b1bda77f79b3}" label="Commercial other Areas, 1:100,000 - 1:10,000"/>
+      <rule scalemaxdenom="100000" scalemindenom="1" filter=" &quot;fclass&quot; = 'residential'" symbol="6" key="{2dd97ba2-b1a4-4b36-989c-b35f7c424518}" label="Residential Areas, 1:100,000 - 1:1"/>
+      <rule scalemaxdenom="150000" scalemindenom="1" filter=" &quot;fclass&quot; = 'forest' OR  &quot;fclass&quot; = 'meadow' OR  &quot;fclass&quot; = 'nature_reserve' OR  &quot;fclass&quot; = 'scrub' OR  &quot;fclass&quot; = 'park' OR  &quot;fclass&quot; = 'orchard' OR  &quot;fclass&quot; = 'grass' OR  &quot;fclass&quot; =  'allotments' OR  &quot;fclass&quot; = 'cemetery' OR  &quot;fclass&quot; =  'heath' OR  &quot;fclass&quot; =  'recreation_ground'" symbol="7" key="{7e5a0ee6-8873-4e90-8bbc-5ac7dc4a50d3}" label="Forested/&quot;Green&quot; areas, 1:150,000 - 1:1"/>
     </rules>
     <symbols>
       <symbol alpha="1" type="fill" name="0" clip_to_extent="1">
@@ -80,17 +78,17 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="0.9" type="fill" name="3" clip_to_extent="1">
+      <symbol alpha="0.579" type="fill" name="3" clip_to_extent="1">
         <layer class="SimpleFill" locked="0" pass="0" enabled="1">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-          <prop v="246,193,199,255" k="color"/>
+          <prop v="192,179,166,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
-          <prop v="0.60000000000000009,0.60000000000000009" k="offset"/>
+          <prop v="0,0" k="offset"/>
           <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
           <prop v="MM" k="offset_unit"/>
-          <prop v="246,193,199,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.26" k="outline_width"/>
+          <prop v="192,179,166,255" k="outline_color"/>
+          <prop v="no" k="outline_style"/>
+          <prop v="0.46" k="outline_width"/>
           <prop v="MM" k="outline_width_unit"/>
           <prop v="solid" k="style"/>
           <data_defined_properties>
@@ -127,28 +125,6 @@
       <symbol alpha="0.579" type="fill" name="5" clip_to_extent="1">
         <layer class="SimpleFill" locked="0" pass="0" enabled="1">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-          <prop v="192,179,166,255" k="color"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="192,179,166,255" k="outline_color"/>
-          <prop v="no" k="outline_style"/>
-          <prop v="0.46" k="outline_width"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="solid" k="style"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option value="" type="QString" name="name"/>
-              <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-      <symbol alpha="0.579" type="fill" name="6" clip_to_extent="1">
-        <layer class="SimpleFill" locked="0" pass="0" enabled="1">
-          <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="223,185,187,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
           <prop v="0,0" k="offset"/>
@@ -168,7 +144,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="0.9" type="fill" name="7" clip_to_extent="1">
+      <symbol alpha="0.9" type="fill" name="6" clip_to_extent="1">
         <layer class="SimpleFill" locked="0" pass="0" enabled="1">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="249,240,223,255" k="color"/>
@@ -190,7 +166,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="0.579" type="fill" name="8" clip_to_extent="1">
+      <symbol alpha="0.579" type="fill" name="7" clip_to_extent="1">
         <layer class="LinePatternFill" locked="0" pass="0" enabled="1">
           <prop v="90" k="angle"/>
           <prop v="235,211,182,255" k="color"/>
@@ -212,77 +188,7 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol alpha="1" type="line" name="@8@0" clip_to_extent="1">
-            <layer class="SimpleLine" locked="0" pass="0" enabled="1">
-              <prop v="square" k="capstyle"/>
-              <prop v="5;2" k="customdash"/>
-              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
-              <prop v="MM" k="customdash_unit"/>
-              <prop v="0" k="draw_inside_polygon"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="235,211,182,255" k="line_color"/>
-              <prop v="solid" k="line_style"/>
-              <prop v="0.3" k="line_width"/>
-              <prop v="MM" k="line_width_unit"/>
-              <prop v="0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="0" k="use_custom_dash"/>
-              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option value="" type="QString" name="name"/>
-                  <Option name="properties"/>
-                  <Option value="collection" type="QString" name="type"/>
-                </Option>
-              </data_defined_properties>
-            </layer>
-          </symbol>
-        </layer>
-        <layer class="SimpleFill" locked="0" pass="0" enabled="1">
-          <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-          <prop v="235,211,182,255" k="color"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="235,211,182,255" k="outline_color"/>
-          <prop v="no" k="outline_style"/>
-          <prop v="0.46" k="outline_width"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="solid" k="style"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option value="" type="QString" name="name"/>
-              <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-      <symbol alpha="0.579" type="fill" name="9" clip_to_extent="1">
-        <layer class="LinePatternFill" locked="0" pass="0" enabled="1">
-          <prop v="90" k="angle"/>
-          <prop v="235,211,182,255" k="color"/>
-          <prop v="1.2" k="distance"/>
-          <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
-          <prop v="MM" k="distance_unit"/>
-          <prop v="0.26" k="line_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="line_width_map_unit_scale"/>
-          <prop v="MM" k="line_width_unit"/>
-          <prop v="0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option value="" type="QString" name="name"/>
-              <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
-            </Option>
-          </data_defined_properties>
-          <symbol alpha="1" type="line" name="@9@0" clip_to_extent="1">
+          <symbol alpha="1" type="line" name="@7@0" clip_to_extent="1">
             <layer class="SimpleLine" locked="0" pass="0" enabled="1">
               <prop v="square" k="capstyle"/>
               <prop v="5;2" k="customdash"/>
@@ -333,8 +239,8 @@
     </symbols>
   </renderer-v2>
   <labeling type="rule-based">
-    <rules key="{bd2a2c67-c38e-44d7-bedb-0a57846cbd17}">
-      <rule scalemaxdenom="10000" scalemindenom="1" filter=" &quot;name&quot; " key="{59da585b-618b-463c-a43c-c1f85c3714ec}">
+    <rules key="{eed9710e-7506-4d7b-82bb-f9f2b44c8ba7}">
+      <rule scalemaxdenom="10000" scalemindenom="1" filter=" &quot;name&quot; " key="{4faf249a-7ef2-4729-a7cd-945f2e7c6061}">
         <settings>
           <text-style fontSizeUnit="Point" fontWordSpacing="0" fontFamily="MS Shell Dlg 2" fontStrikeout="0" useSubstitutions="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" blendMode="0" fontItalic="0" namedStyle="Regular" fontUnderline="0" fontWeight="50" multilineHeight="1" fieldName="" textOpacity="1" textColor="0,0,0,255" previewBkgrdColor="#ffffff" fontSize="10" fontLetterSpacing="0" isExpression="1" fontCapitals="0">
             <text-buffer bufferColor="255,255,255,255" bufferSizeUnits="MM" bufferSize="1" bufferOpacity="1" bufferJoinStyle="128" bufferBlendMode="0" bufferDraw="0" bufferNoFill="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0"/>
