@@ -15,4 +15,6 @@ BBOX: 272959.3,664968.8,273431.1,665310.3
 
 ![Screenshot](https://github.com/popelnuh/osm-sld/blob/master/osm-screenshots/1-2700.PNG)
 
+![Screenshot](https://github.com/popelnuh/osm-sld/blob/master/osm-screenshots/osm-2.PNG)
+
 ![Screenshot](https://github.com/popelnuh/osm-sld/blob/master/osm-screenshots/1-2800000.PNG)
