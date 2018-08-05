@@ -9,3 +9,5 @@ See  Wiki for more details.
 
 ![Screenshot](https://github.com/popelnuh/osm-sld/blob/master/osm-screenshots/osm-os.PNG)
 'Reproduced with the permission of the National Library of Scotland'
+
+BBOX: 272959.3,664968.8,273431.1,665310.3
