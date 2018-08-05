@@ -6,10 +6,16 @@
       <Name>gis_osm_places_free_1</Name>
       <FeatureTypeStyle>
         <Rule>
-          <MinScaleDenominator>1000</MinScaleDenominator>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>fclass</ogc:PropertyName>
+              <ogc:Literal>town</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <MinScaleDenominator>1</MinScaleDenominator>
           <MaxScaleDenominator>300000</MaxScaleDenominator>
           <TextSymbolizer>
-                        <VendorOption name="spaceAround">20</VendorOption>
+            <VendorOption name="spaceAround">20</VendorOption>
             <Priority>
               <PropertyName>city</PropertyName>
             </Priority>
@@ -44,7 +50,7 @@
           <MinScaleDenominator>1000</MinScaleDenominator>
           <MaxScaleDenominator>200000</MaxScaleDenominator>
           <TextSymbolizer>
-                        <Priority>
+            <Priority>
               <PropertyName>city</PropertyName>
             </Priority>
             <VendorOption name="spaceAround">15</VendorOption>
@@ -54,6 +60,47 @@
             <Font>
               <SvgParameter name="font-family">Perpetua Titling MT</SvgParameter>
               <SvgParameter name="font-size">7</SvgParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.5</AnchorPointY>
+                </AnchorPoint>
+              </PointPlacement>
+            </LabelPlacement>
+            <Halo>
+              <Radius>2</Radius>
+              <Fill>
+                <SvgParameter name="fill">#ffffff</SvgParameter>
+                <SvgParameter name="fill-opacity">0.419</SvgParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <SvgParameter name="fill">#73675b</SvgParameter>
+            </Fill>
+          </TextSymbolizer>
+        </Rule>
+        <Rule>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>fclass</ogc:PropertyName>
+              <ogc:Literal>city</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <MinScaleDenominator>10</MinScaleDenominator>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <VendorOption name="spaceAround">20</VendorOption>
+            <Priority>
+              <PropertyName>city</PropertyName>
+            </Priority>
+            <Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </Label>
+            <Font>
+              <SvgParameter name="font-family">Perpetua Titling MT</SvgParameter>
+              <SvgParameter name="font-size">13</SvgParameter>
             </Font>
             <LabelPlacement>
               <PointPlacement>
